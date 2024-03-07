@@ -1,0 +1,562 @@
+
+.Links a{
+    font-size: 1.7em;
+    color: white;
+    margin: 20px 0px;
+    padding: 10px;
+    font-weight: bold;
+    text-shadow: 1px 1.3px 1.7px rgb(99, 99, 98);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+/*background-image: url('../images/1558314.jpg') !important;  */
+
+.lik::-webkit-scrollbar-thumb{
+   background: blue;
+}
+::-webkit-scrollbar{
+    display: block !important;
+}
+
+
+/*
+.Links a:nth-child(1), .Links a:nth-child(2), .Links a:nth-child(3){
+    position: relative;
+    left: 0;
+    right: 0;
+    color: transparent;
+    overflow: hidden;
+    text-shadow: 2px 2px  2.9px  rgb(192, 190, 190);
+
+}
+
+.Links a:nth-child(1):hover{
+    text-shadow: 2px 2px  2.9px  rgba(192, 190, 190, 0);
+
+}
+
+.Links a:nth-child(2):hover{
+    text-shadow: 2px 2px  2.9px  rgba(192, 190, 190, 0);
+
+}
+
+.Links a:nth-child(3):hover{
+    text-shadow: 2px 2px  2.9px  rgba(192, 190, 190, 0);
+
+}
+
+
+
+.Links a:nth-child(1)::before{
+    content: 'Home';
+position: absolute;
+left: 10px;
+right: 10px;
+top: 10px;
+bottom: 10px;
+transition-duration: 0.2s ease;
+    color: rgb(255, 255, 255);
+transition: ease 0.40s;
+  z-index: 1;
+
+    
+    }
+
+    .Links a:nth-child(2)::before{
+        content: 'Trending';
+        position: absolute;
+        left: 10px;
+        right: 10px;
+        top: 10px;
+        bottom: 10px;
+        transition-duration: 0.2s ease;
+            color: rgb(255, 255, 255);
+            transition: ease 0.40s;
+          z-index: 1;
+    }
+
+    .Links a:nth-child(3)::before{
+        content: 'About';
+        position: absolute;
+        left: 10px;
+        right: 10px;
+        top: 10px;
+        bottom: 10px;
+        transition-duration: 0.2s ease;
+            color: rgb(255, 255, 255);
+            transition: ease 0.40s;
+          z-index: 1;
+    }
+
+
+    .Links a:nth-child(1)::after{
+        content: 'Home';
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    top: -50px;
+    bottom: 10px;
+    transition-duration: 1.2s ease;
+    transition: ease 0.44s;
+        
+        }
+
+        .Links a:nth-child(2)::after{
+            content: 'Trending';
+            position: absolute;
+            left: 10px;
+            right: 10px;
+            top: -50px;
+            bottom: 10px;
+            transition-duration: 1.2s ease;
+            transition: ease 0.44s;
+             
+        }
+
+
+        .Links a:nth-child(3)::after{
+            content: 'About';
+        position: absolute;
+        left: 10px;
+        right: 10px;
+        top: -50px;
+        bottom: 10px;
+        transition-duration: 1.2s ease;
+        transition: ease 0.44s;
+        
+            }
+    
+
+        
+        .Links a:nth-child(1):hover::after{
+            color: rgb(15, 10, 10);
+            top: 10px;
+            z-index: 2;
+            border-bottom: 1px solid white;
+        }
+
+        .Links a:nth-child(2):hover::after{
+            color: rgb(15, 10, 10);
+            top: 10px;
+            z-index: 2;
+            border-bottom: 1px solid white;
+        }
+
+        .Links a:nth-child(3):hover::after{
+            color: rgb(15, 10, 10);
+            top: 10px;
+            z-index: 2;
+            border-bottom: 1px solid white;
+        }
+
+
+        .Links a:nth-child(1):hover::before{
+          content: "";
+           
+            z-index: 2;
+            border-bottom: 1px solid white;
+            bottom: -20px;
+            transition-duration: 1.2s ease;
+            transition: ease 0.24s;
+            top: 20px;
+        }
+
+        .Links a:nth-child(2):hover::before{
+            content: "";
+           
+            z-index: 2;
+            border-bottom: 1px solid white;
+            bottom: -20px;
+            transition-duration: 1.2s ease;
+            transition: ease 0.24s;
+            top: 20px;
+        }
+
+        .Links a:nth-child(3):hover::before{
+            content: "";
+           
+            z-index: 2;
+            border-bottom: 1px solid white;
+            bottom: -20px;
+            transition-duration: 1.2s ease;
+            transition: ease 0.24s;
+            top: 20px;
+        }
+
+
+
+*/
+
+
+
+.Links{
+    display: flex;
+margin-left: auto;
+
+
+}
+
+.logo{
+font-size: 2.5em;
+padding: 0.50em;
+font-weight: bold;
+text-shadow: 1px 2px rgb(122, 118, 118);
+
+font-family: 'Rubik Vinyl', cursive;
+
+}
+
+
+
+.login{
+    position: absolute;
+    right: 100px;
+    top: 0;
+   margin: 0 !important;
+   padding: 0 !important; 
+}
+.login{
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.logi a{
+    color: rgb(255, 255, 255);
+    font-size:1.3rem;
+margin-top: 25px;
+font-weight: bold;
+}
+.login a:hover{
+color: rgb(112, 111, 111)
+}
+
+
+.nav{
+    border-bottom: 1px solid rgba(255, 243, 173, 0);
+
+}
+
+.Humberger{
+    display: none;
+}
+
+
+/* drawer bar  */
+
+.Linksbar{
+    display: flex;
+    flex-direction: column;
+    color: black;
+margin-top: 100px;
+
+}
+
+
+
+.navcolor{
+        height: 100%;
+
+  /*  height: max-content;
+    max-height: fit-content;
+    min-height: fit-content;
+*/
+}
+
+.Con{
+ z-index: 20;
+ backdrop-filter: blur(20px);
+ background-color: rgba(255, 248, 248, 0.596);
+
+height: max-content;
+height: 100vh;
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+display: flex;
+flex-direction: column;
+
+}
+
+.Linksbar a{
+    font-size: 1.8rem;
+    color: rgb(14, 12, 12);
+    font-weight: bold;
+    padding: 20px 10px;
+margin-bottom: 20px;
+transition: 2s ease;
+    
+}
+
+.logow{
+    justify-self: left;
+    text-align: left;
+    padding: auto;
+    font-weight: bold;
+    text-shadow: 1px 2px rgb(122, 118, 118);
+    
+    font-family: 'Rubik Vinyl', cursive;
+    position: absolute;
+color: black;
+left: 16px;
+top: 160px;
+font-size: 1.6rem;
+}
+
+
+.logsin{
+    margin-top: 10px;
+    font-size: 1rem;
+}
+.logsin a{
+    color: rgb(2, 0, 0);
+    font-size:1rem;
+margin-top: 25px;
+font-weight: bold;
+
+transition: 2s ease;
+
+}
+.logsin a:hover{
+color: rgb(112, 111, 111)
+}
+
+.Linksbar a:hover{
+   color: rgb(31, 30, 30)
+      
+        
+}
+
+.navDrawer{
+    color: rgb(2, 0, 0);
+    font-weight: bold;
+    padding-left: 30px;
+padding-top: 50px;
+font-size: 2rem;
+margin-bottom: -55px;
+z-index: 10;
+
+}
+
+@media screen and (max-width: 990px) {
+    .Links{
+        overflow: scroll;
+    }
+    #fixit{
+ 
+        height: 100% !important;
+        position: fixed !important;
+    
+    
+     }
+
+     .Linksbar a {
+        margin-left: auto;
+        margin-right: auto;
+     }
+    .logo{
+        font-size:  1.6rem;
+    }
+
+    .Humberger{
+        font-size: 2.5rem;
+        margin: 50px 50px 0px 20px;
+ 
+   top: 0;
+   left: 0;
+   display: block;
+
+
+   z-index: 17;
+    }
+.Con{
+
+    margin-bottom: 300px !important;
+      /*   background: radial-gradient(at top left, rgb(243, 237, 237) 0%,  rgb(198, 255, 198) 100%) ;
+
+        background: radial-gradient(at top left, rgb(243, 237, 237) 0%,  rgb(198, 255, 198) 100%) ;
+*/
+
+background: linear-gradient(to bottom, #ffffff, #f5f5f5) !important;
+    background-blend-mode: darken;
+background-color: rgba(240, 196, 103, 0.575);
+color: white;
+background-position: top;
+background-size: cover;
+background-clip: border-box;
+backface-visibility: visible;
+background-attachment: fixed;
+
+
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+}
+  
+    .Links a{
+        font-size: 1.2rem;
+        margin-top: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+        color: rgb(14, 11, 11);
+        transition: 2s ease;
+    }
+
+
+
+
+    .nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+    z-index: 13;
+   /* margin-bottom: 300px !important; */
+    height: 100px ;
+    }
+     /* added n.*/
+     #nav{
+     /*   margin-bottom: 300px !important; */
+        background-image: url('../images/1558314.gif') !important; 
+      /*   background: radial-gradient(at top left, rgb(243, 237, 237) 0%,  rgb(198, 255, 198) 100%) ;
+
+        background: radial-gradient(at top left, rgb(243, 237, 237) 0%,  rgb(198, 255, 198) 100%) ;
+*/ 
+    background-blend-mode: darken;
+    height: 90px;
+color: white;
+background-position: top;
+background-size: cover;
+background-clip: border-box;
+backface-visibility: visible;
+background-attachment: fixed;
+background-color: rgba(240, 196, 103, 0.575);
+color: #f3efef;
+
+}
+.av  a{
+    color: #f0f0f0 !important;
+}
+
+
+}
+
+.isActiveted{
+    color: white !important;
+}
+
+.isActived{
+    background-color: black;
+    color:"black";
+   
+}
+
+.isActive{
+    color: purple !important;
+    }
+
+    .Links a:hover{
+        color:rgb(240, 237, 237)
+    }
+.Links{
+    overflow-y: hidden;
+}
+  
+    ::-moz-webkit-scrollbar{
+        width: 0.1em !important;
+        height: 0.40em !important;
+        background-color: #3f3f3f !important;
+    }
+    ::-webkit-scrollbar {
+        width: 0.1em !important;
+        height: 0.50em !important;
+        padding-left: 10px;
+        background-color: #ffbf34 !important;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        height: 1em !important;
+        width: 0.30em !important;
+        background-color: #1b1b1b !important;
+      }
+
+      ::-webkit-scrollbar-thumb:hover {
+        height: 1em !important;
+        width: 0.30em !important;
+        background-color: #9dffef !important;
+      }
+      
+      ::-moz-scrollbar-thumb{
+        height: 1em !important;
+        width: 0.30em !important;
+        background-color: #9dffef !important;
+      }
+
+
+      @media screen and (min-width: 990px) {
+
+
+        .nav{
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+        z-index: 13;
+      /*  margin-bottom: 300px !important; */ 
+        height: 100px ;
+        }
+        
+      /* added n.*/
+        #nav{
+           /* margin-bottom: 300px !important; */
+            background: radial-gradient(at top left, rgb(243, 237, 237) 0%,  rgb(198, 255, 198) 100%) ;
+
+            background-image: url('../images/1558314.gif') !important;
+            background-blend-mode:luminosity !important;
+        
+        color: white;
+        
+        background-size: cover;
+        background-clip: border-box;
+        backface-visibility: visible;
+        background-attachment: fixed;
+        background-blend-mode:soft-light;
+        background-color: rgba(240, 196, 103, 0.575);
+       
+        }
+        
+        }
+        
+    
+
+
+        #nav{
+            margin-top: 70px !important;
+        }
+
+      
+
+    
+
+
+        .dnoned{
+            display: none !important;
+        }
+
+      
+
+
+        @media screen and (max-width: 757px) {
+            
+            #bbell > .pi-bell {
+                margin-top: 0px !important;
+            }
+        }
+
+        @media screen and (max-width: 390px) {
+            
+            #bbell > .pi-bell {
+                margin-top: 0px !important;
+            }
+        }
+

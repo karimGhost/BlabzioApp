@@ -1,0 +1,302 @@
+
+  .profileavatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .notificationicon {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .profilemenu {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+    padding: 10px;
+    display: none;
+  }
+  
+  .profilecontainer:hover .profilemenu {
+    display: block;
+  }
+  
+  .profileicon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #f5f5f5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .profileicon img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .profilemenu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 200px;
+    padding: 15px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    display: none;
+  }
+  
+  .profileicon:hover + .profilemenu {
+    display: block;
+  }
+  
+  .profilemenu a {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+    text-decoration: none;
+  }
+
+  .profile {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile_avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .profile__dropdown {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+  }
+  
+  .profile:hover .profile__dropdown {
+    display: block;
+  }
+  
+  .profile__dropdown button {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+    color: black;
+    cursor: pointer;
+  }
+.profimg{
+  position: absolute;
+  top: 0;
+  right: 0;
+
+}
+
+  
+    .profileimg {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    }
+    
+    .profilename {
+    margin-left: 10px;
+    }
+    
+    .profiledropdown {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 20px;
+    }
+    
+    .profileselect {
+    margin-bottom: 20px;
+    }
+    
+    .profilefavoritescontainer {
+    margin-bottom: 20px;
+    }
+    
+    #container, .favoritescontainer, .logoutbutton, .lague{
+      margin-bottom: 40px ;
+      
+    }
+
+
+    .profilefavoritestitle {
+    font-weight: bold;
+    margin-bottom: 10px;
+    }
+  
+    
+   
+    .profilelogoutcontainer {
+    text-align: right;
+    }
+    
+  
+
+    .profilecontainer {
+      transition: ease linear 0.70s;
+      transition-delay: 1s;
+      display: flex;
+
+      -moz-transition: 1s ease !important;
+      flex-direction: column;
+      align-items: center;
+      position: absolute;
+      top:0;
+      right:0;
+      bottom: 0;
+     z-index: 5;
+transition: 1s ease;
+   background-color: rgba(255, 255, 255, 0.856);
+     
+     
+     
+      margin-top: 0px;
+box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.2);
+background-color: rgba(244, 247, 240, 0.274) !important;
+overflow: hidden !important;
+height: 0px;
+}
+
+      
+
+      .profileimg {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+
+      }
+    
+      .profileimginput {
+      display: none;
+      }
+      
+      .languageselect {
+      margin-bottom: 10px;
+      }
+      
+      .logoutbutton {
+      background-color: red;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      }
+      
+      .favoritescontainer {
+      margin-top: 20px;
+      }
+      
+      .favorites-container h2 {
+      margin-bottom: 10px;
+      }
+    
+      .favoritescontainer ul {
+      list-style: none;
+      padding: 0;
+      }
+      
+      .favoritescontainer li {
+      margin-bottom: 10px;
+      }
+
+   
+      .profileimg{
+        position: relative;
+      }
+
+      .logoutbutton:hover{
+        background-color: rgb(143, 14, 14);
+      }
+      #proof{
+        width: 50vw;
+        height: 600px !important;
+        transition: 0.90s ease-in-out;
+        -moz-transition: 0.90s ease !important;
+        -webkit-transition-duration: 0.90s ;
+        transition-duration:  0.90s;
+      }
+
+      #proo{
+       width: 0px;
+       height: 0px !important;
+overflow: hidden !important;
+        transition: 0.60s ease ;
+        -moz-transition: 1s ease !important;
+
+      }
+      @media screen and (max-width: 600px) {
+        .profilecontainer {
+          transition: ease linear 0.70s;
+          transition-delay: 1s;
+          display: fle;
+          -moz-transition: 1s ease !important;
+          flex-direction: column;
+          align-items: center;
+          position: absolute;
+          top:0;
+          right:0;
+          bottom: 0;
+         z-index: 5;
+    transition: 1s ease;
+       overflow: hidden !important;
+        justify-content:baseline;
+       justify-items:space-evenly;
+          align-items:center;
+    box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.2);
+    background-color: rgba(244, 247, 240, 0.171) !important;
+    overflow: hidden;
+    }
+
+
+    #proof{
+      width: 100vw;
+      height: 100vh !important;
+      transition: 0.90s ease-in-out;
+      -moz-transition: 1s ease !important;
+     
+      padding: 20px;
+
+     -webkit-transition-duration : 0.90s ;
+     transition-duration: 0.90s
+    }
+
+
+    #proo{
+     width: 0px;
+     height: 0px;
+overflow: hidden  ;
+      transition: 0.60s ease ;
+      -moz-transition: 1s ease !important;
+
+    }
+      }

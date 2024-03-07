@@ -1,0 +1,471 @@
+.searchcontainer {
+    width: 20% !important;
+    max-width: 600px;
+    margin:   auto;
+    position: relative;
+z-index: 12;
+/* background-color: #666; */
+
+overflow-x: hidden;
+
+  }
+
+   .searchcontain{
+    width: 20% ;
+    max-width: 600px;
+    margin:   auto;
+    position: relative;
+z-index: 12;
+/* background-color: #666; */
+overflow-x: hidden;
+height: fit-content;
+background-color: #ccc;
+
+   } 
+  #searchicon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+position: absolute;
+    transition: all 0.2s ease-in-out;
+right: 0;
+   top: 0;
+
+    margin:  auto;
+
+  }
+  
+  #searchbutton.open {
+    background-color: #fff;
+  }
+  
+  #searchicon .i {
+    font-size: 20px;
+    color: #666;
+  }
+  #searchButton:hover{
+    color: whitesmoke !important;
+  }
+  
+  .searchinput, #searchbutton {
+   width: 0px;
+   transition: 0.20s linear;
+  }
+  
+/**/
+
+.bfr{
+  animation: gr 1s forwards; 
+ z-index: -1;
+
+  overflow: hidden;
+}
+
+  .searchinput {
+    transform: translateX();
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+   border-right: none;
+   border-top-right-radius: 0;
+   border-bottom-right-radius: 0;
+   transition: 0.30s linear;
+
+outline: none;
+  }
+
+  .searchinput::placeholder{
+    color:rgb(0, 0, 0)
+
+  }
+  .searchinputactive{
+    border-color: rgb(0, 255, 13);
+  }
+  #searchbuttonactive{
+    border-color: rgb(0, 255, 13) !important;
+
+  }
+
+  
+
+  @keyframes gr {
+    from{
+      
+    
+     transform: translateX(0%);
+     display: none !important;
+    }
+    to{
+      transform: translateX(150%);
+
+    }
+    
+  }
+   #searched{
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+ 
+    color: rgb(0, 0, 0);
+  background: transparent;
+    cursor: pointer;
+    border-left: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    float: right;
+
+   }
+  
+  
+  #searchbutton {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #fff27a;
+    color: rgb(0, 0, 0);
+    border: 2px solid #ccc;
+    cursor: pointer;
+    border-left: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+
+ .searchinput.open {
+  
+  width: 80%;
+  }
+  
+  @media screen and (max-width: 1108px) {
+
+    #searched{
+display:none;
+    } 
+    .open {
+      display:none;
+    }
+    #searchbutton{
+      display:none;
+    }
+
+
+
+
+    #searche{
+      width: 20%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      margin-top: -10px;
+      border: none;
+      border-radius: 4px;
+      font-size: 20px;
+   
+      color: rgb(0, 0, 0);
+    background: transparent;
+      cursor: pointer;
+      border-left: none;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+      float: right;
+  
+     }
+    
+    
+    #searchbutto {
+      width: 20%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      background-color: #fff27a;
+      color: rgb(0, 0, 0);
+      border: 2px solid #ccc;
+      cursor: pointer;
+      border-left: none;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+    
+  
+   .searchinput.open {
+    
+    width: 80%;
+    }
+
+
+    .searchcontain {
+    
+      width: 100% !important;
+      max-width: 600px;
+      margin:   auto;
+      position: absolute;
+
+    height: 100vh;
+  z-index: 12 !important;
+  /* background-color: #666; */
+  overflow-x: hidden;
+  background-color: white;
+top: 0;
+  transition: all  0.30s;
+  backdrop-filter: blur(25px) ;
+    }
+.bfr{
+  animation: gr 1s forwards; 
+ z-index: -1;
+
+  overflow: hidden;
+}
+
+  }
+  
+  @media screen and (max-width: 603px) {
+
+ 
+
+    .searchinput {
+      transform: translateX();
+      width: 80% !important;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+     border-right: none;
+     border-top-right-radius: 0;
+     border-bottom-right-radius: 0;
+     transition: 0.30s linear;
+  
+  outline: none;
+    }
+    #searchbutton {
+      width: 20% !important;
+      padding: 12px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      background-color: #fff27a;
+      color: rgb(0, 0, 0);
+      border: 2px solid #ccc;
+      cursor: pointer;
+      border-left: none;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+    .searchcontain {
+    
+      width: 100% !important;
+      max-width: 100%;
+      margin:   auto;
+      position: absolute;
+
+    height: 100vh;
+  z-index: 12 !important;
+  /* background-color: #666; */
+  overflow-x: hidden;
+  background-color: white;
+top: 0;
+  transition: all  0.30s;
+  backdrop-filter: blur(25px) ;
+    }
+.bfr{
+  animation: gr 1s forwards; 
+ z-index: -1;
+
+  overflow: hidden;
+}
+
+  }
+  
+
+
+
+  @media screen and (max-width: 600px) {
+  .searchcontainer {
+  flex-wrap: wrap;
+  }
+  
+  .searchinput, #searchbutton {
+      width: 100%;
+  }
+  
+  }
+  
+  
+
+  @media screen and (max-width: 228px) {
+    .searchinput {
+      transform: translateX();
+      width: 70% !important;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+     border-right: none;
+     border-top-right-radius: 0;
+     border-bottom-right-radius: 0;
+     transition: 0.30s linear;
+  
+  outline: none;
+    }
+    #searchbutton {
+      width: 10% !important;
+      padding: 12px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      background-color: #fff27a;
+      color: rgb(0, 0, 0);
+      border: 2px solid #ccc;
+      cursor: pointer;
+      border-left: none;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+
+  }
+
+ 
+
+
+  @media screen and (min-width: 1108px) {
+    .OFF{
+      display: none ;
+    }
+
+    #searche{
+      display:none;
+          } 
+          .ope {
+            display:none;
+          }
+          #searchbutto{
+            display:none;
+          }
+   
+  }
+
+ .ope{
+    margin-top: -90px !important;
+  }
+  @media  screen and (min-width: 767px) {
+
+  .open{
+    margin-top: -60px !important; 
+  }
+}
+
+
+@media  screen and (max-width: 767px) {
+
+#searche{
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  margin-top: -50px;
+  border: none;
+  border-radius: 4px;
+  font-size: 20px;
+
+  color: rgb(0, 0, 0);
+background: transparent;
+  cursor: pointer;
+  border-left: none;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  float: right;
+
+ }
+}
+
+
+@media  screen and (max-width: 407px) {
+
+
+  #searche{
+    margin-top: -30px !important;
+  width: fit-content;
+    height: 10px;
+    padding: 0px;
+ margin-right: -50px;
+ display: flex;
+ float: left;
+    text-align: left !important;
+  
+
+  }
+}
+
+
+
+@media screen  and ( max-width: 406px) {
+    
+  .bfr{
+    width: 0px !important;
+    display: none;
+  }
+    
+  .searchcontainer {
+    height: fit-content !important;
+
+    width: fit-content !important;
+overflow-x:visible;
+padding: 0 !important;
+margin-top: -5px;
+
+  }
+
+  #searche{
+ 
+    color: white !important;
+  }
+  }
+
+
+  
+
+
+  @media screen  and ( max-width: 390px) {
+    #searche{
+      margin-top: -30px !important;
+      width: 0px;
+     
+    }
+    .searchcontainer {
+      height: fit-content !important;
+  
+      width: fit-content !important;
+  overflow-x:visible;
+  padding: 0 !important;
+  margin-top: -5px;
+  position: absolute;
+  right: 0;
+  top: 50px;
+    }
+  
+    .bfr{
+      width: 0px !important;
+      display: none;
+    }
+  }
+

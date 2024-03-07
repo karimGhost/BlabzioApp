@@ -1,0 +1,54 @@
+/* LandingPage.css */
+.landing-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #ff4e50, #fc913a); /* Set your desired background gradient */
+  color: #ffffff; /* Set your desired text color */
+}
+
+.fixedit {
+  position: absolute;
+  left: 50px;
+  top: 0;
+  width: fit-content;
+  margin: auto;
+  background: black;
+}
+
+.animated-logo {
+  display: flex;
+  align-items: center;
+}
+
+.letter-b,
+.letter-z {
+  font-size: 2rem;
+  color: orange;
+}
+
+.blabzio-text {
+  color: whitesmoke;
+  font-size: 1.4rem;
+  margin-left: 0.5rem;
+  font-weight: bold;
+}
+
+/* Animation */
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
+}
+
+.animated-logo span {
+  display: inline-block;
+  animation: bounce 2s infinite;
+}

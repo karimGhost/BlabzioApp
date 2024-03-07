@@ -1,0 +1,763 @@
+.ContainerLogB{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 19;
+    background-color: rgba(241, 248, 253, 0.849) ;
+
+    background-image: url('../images/1558314.gif') !important;
+    background-blend-mode: darken;
+    color: rgb(252, 247, 247);
+    text-shadow:  1px 1px 4px black;
+height: 100%;    
+}
+   
+  
+button{
+    color: rgb(252, 247, 247);
+    text-shadow:  1px 1px 4px rgb(192, 191, 191);
+}
+.ContainerForm{
+color: white !important;
+    background: rgba(245, 215, 160, 0.603);
+height: 90%;
+width: 100%;
+display: flex;
+position: relative;
+color: black;
+flex-direction: column;
+
+
+}
+.ContainerForm h3{
+    margin-top: 5px;
+    margin-left: 5px;
+    border-bottom: 1px solid rgb(73, 73, 73);
+
+}
+.Big{
+  
+display: flex;
+flex-direction: column;
+    width: 70%;
+ margin-right: auto;
+ 
+margin-bottom: 20px;
+
+}
+
+.Bi{
+  
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+margin: 0 auto !important;
+     
+    margin-bottom: 20px;
+    
+    }
+
+.Big input {
+outline: none;
+ font-size: 1.4rem;
+   border-color: transparent; 
+
+    background-color: transparent;
+    border-bottom-color: rgb(185, 118, 118) !important; 
+    width:70%;
+   
+
+
+}
+
+.Bi input {
+    outline: none;
+     font-size: 1rem;
+       border-color: transparent; 
+    
+        background-color: transparent;
+        border-bottom-color: rgb(185, 118, 118) !important; 
+      
+ width: 100% !important;
+    
+    }
+.Bi input{
+    padding: 0px;
+position: relative;
+width: auto;
+max-width: 100%;
+min-width: 100%;
+
+}
+.formInputs{
+    display: flex;
+    flex-direction: column;
+}
+
+.Big input{
+    justify-self: left;
+    align-self: left;
+    margin-right:auto;
+    text-align: left;
+    }
+  
+     
+    .Bi input{
+        justify-self: left;
+        align-self: left;
+        margin-right:auto;
+        text-align: left;
+        }
+      
+ 
+  .ContainerForm{
+    padding: 40px;
+   
+  }
+
+#ContainerFor{
+
+    color: white !important;
+height: 100% !important;
+background: rgba(245, 215, 160, 0.877);
+
+display: flex;
+position: relative;
+color: black;
+flex-direction: column;
+
+background-attachment: fixed;
+
+/* margin-top: 50px !important; */
+    }
+#ss{
+    width: 100%;
+}
+
+.match{
+    margin: auto !important;
+}
+
+  .Big{
+    margin-top: 100px;
+    
+    }
+    
+    .U{
+     
+        text-align: center;
+    
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+        
+
+    }
+    
+    .formInputs{
+        margin-bottom: 35px;
+     
+        }
+    
+        .start{
+    border-right: 1px solid black ;
+    height: 50%; 
+    width: 1px;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(240, 116, 116);  
+  
+}
+        .end{
+            border-right: 1px solid black ;
+    height: 200px; 
+    width: 1px;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(240, 116, 1);
+  
+
+        }
+    
+        label{
+            position: absolute;
+            font-size: 1rem;
+            transition: 0.35s ease;
+          
+        }
+
+#bigy{
+    margin: 0px 0  ;
+    background: rgba(245, 215, 160, 0.603);
+    display: flex;
+    flex-direction: column;
+  width: 100%;
+ 
+
+}
+#afterf{
+    height: 100%;
+}
+#ti{
+    color: white !important;
+    position: absolute;
+    z-index: 30;
+
+}
+#ti:hover{
+    color:  rgba(245, 215, 160, 0.603);
+
+}
+
+
+
+
+        .sigup{
+color: white !important;  
+        }
+        .forg{
+            color: white !important;  
+
+        }
+    
+        
+        .form{
+            display: grid;
+            grid-template-columns: auto ;
+        }
+    
+        .sGmail{
+    align-self: center;
+    justify-self: center;
+    border-radius: none !important;
+    background: transparent !important;
+    font-size: 1rem;
+    padding: 10px;
+    background: rgba(36, 29, 16, 0.719) !important;
+    
+    
+        }
+
+        .firstsignup{
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+cursor: pointer;
+        }
+        .firstsignup:active{
+            box-shadow:inset 10px 5px 5px 15px rgba(0, 0, 0, 0.25);
+
+        }
+        .firstlogin{
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+cursor: pointer;
+        }
+
+        .firstlogin:active{
+            box-shadow: inset 10px 5px 5px 15px rgba(0, 0, 0, 0.25);
+cursor: pointer;
+        }
+    
+        .smail{
+            font-size: 0.90rem;
+            background-color: transparent;
+            background: rgba(36, 29, 16, 0.719) !important;
+        }
+    
+
+       
+
+        .firstGmail {
+            margin-top: 14%;
+            margin-bottom:5%;
+            color:rgb(26, 25, 25) !important;
+        }
+        .forgot{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+        }
+    
+        .Signupsg{
+            margin-top: 90%;
+            justify-content: center;
+     
+        width: fit-content;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+     
+        }
+        .forgot:hover{
+            text-decoration: underline;
+            
+        }
+        .sign{
+            border-radius: 20px;
+           width: 40%;
+           font-size: 0.96rem;
+            height: 30px;
+    color: white;
+            background-color: rgba(32, 32, 32, 0.822);
+       cursor: pointer;
+       margin-left: 10px;
+        }
+    .sign:hover{
+        background-color: rgb(20, 20, 20);
+    }
+        .sigco{
+            margin-left: -20px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        
+        
+        }
+
+      #sigco{
+        margin-bottom: 200px;
+      }
+  
+.Entered{
+   /* padding: 50% 0  0  0; */
+margin-top: auto;
+margin-bottom: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+}
+.Enteredbtn{
+display: flex;
+flex-direction: row;
+
+
+
+
+justify-content: space-between;
+}
+
+#afterf{
+    width: 100vw !important;
+}
+
+.firstGmail{
+    padding: 10px;
+    font-size: 1rem;
+    background-color: white;
+border: none;
+border-radius: 5px;
+}
+.Ex{
+position: absolute;
+top: 20px;
+right: 10px;
+    color: black;
+    font-size: 3rem;
+    text-align: right;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+.Ex:hover{
+    color: red;
+}
+
+.firstsignup{
+padding: 5px;
+font-size: 1rem;
+border-radius: 20px;
+width: 80%;
+margin-right: 10px;
+border: none;
+width: fit-content;
+background-color: rgba(216, 170, 101, 0.521)  !important;
+margin-left: 20px;
+height: fit-content;
+}
+
+.firstlogin{
+    font-size: 1rem;
+    padding: 6px;
+    border-radius: 20px;
+    width: 80%;
+    margin-left: 10px;
+    border: none;
+width: fit-content;
+background-color: rgba(216, 170, 101, 0.521) !important;
+margin-right: 30px;
+height: fit-content;
+}
+.ContainerLogA{
+    display: none;
+        }
+
+        .formed{
+           margin: auto;
+           width: fit-content;
+           justify-content: center;
+           display: flex;
+           flex-direction: column;
+        }
+
+     .signuped{
+       display: flex;
+   margin: auto;
+     width: 50%;
+     justify-content: space-around;
+     align-items: center;
+     align-content: center;
+     justify-items: center;
+     } 
+     
+    .forg {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        font-size: 1rem;
+       text-align: left;
+      
+     }
+
+   .sigup{
+        border-radius: 20px;
+        width: 110px ;
+    
+     padding: 4px;
+        font-size: 0.90rem;
+         height: 30px;
+ color: white;
+         background-color: rgba(32, 32, 32, 0.822);
+    cursor: pointer;
+  
+     }
+
+     .forg:hover{
+        text-decoration: underline;
+        
+    }
+
+    .sigup:hover{
+        background-color: rgb(0, 0, 0);
+    }
+    .formed {
+        margin: auto;
+        width: 90%;
+        color: white !important;
+    }
+    .formed > button{
+        color: white;
+    }
+ .formed, .Big{
+    margin: auto;
+    width: 90%;
+    position: relative;
+    margin-top: 25% !important;
+    border-radius: 5px;
+    text-shadow: 1px 1px 1.5px black;
+    backdrop-filter: blur(25);
+   }
+  
+   .Z{
+    
+    margin-bottom: -20px;
+    font-size: 1.5rem;
+    text-align: center;
+   }
+
+ #Big{
+    margin-top: 25% !important ;
+ }
+
+   .head{
+    margin-bottom: 100px !important;
+   }
+
+   .sign:hover{
+    background-color: rgba(245, 215, 160, 0.534) !important;
+
+   }
+   @media screen and (max-width: 367px) {
+    .firstlogin{
+        font-size: 0.90rem;
+        padding: 5px;
+        border-radius: 20px;
+        width: 80%;
+        margin-right: 0px;
+        border: none;
+    width: fit-content;
+    background: beige;
+    margin-right: 30px;
+    height: 30px;
+    }
+    .firstsignup{
+        padding: 5px;
+        font-size: 0.90rem;
+        border-radius: 20px;
+        width: 80%;
+        margin-left: 0px;
+        border: none;
+        width: fit-content;
+        background: beige;
+        margin-left: 20px;
+        height: fit-content;
+        }
+
+   }
+
+   .formed{
+     background: rgba(245, 215, 160, 0.603)   !important;
+    background-blend-mode: darken;
+    color: rgb(252, 247, 247);
+    text-shadow:  1px 1px 4px black;
+ 
+
+ 
+   }
+
+   @media screen and (min-width: 408px) {
+    .formed, .Big{
+        margin: auto;
+     
+        max-width: 70%;
+        min-width: 70%;
+        margin-top: 100px;
+        border-radius: 5px;
+        text-shadow: 1px 1px 1.5px black;
+       }
+       .sigup{
+        width: 100px
+       }
+     
+
+      
+       
+   }
+
+
+  @media screen and (min-width: 723px) {
+.formed, .Big {
+    max-width: 50%;
+    min-width: 0%;
+   position: relative;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ margin-top: 5% !important;
+
+}
+    .sigup{
+        width: 100px;
+      
+        
+       }
+    .ContainerLogB{
+display: none;
+    }
+    .ContainerLogA{
+        display: flex;
+        
+        justify-content: center;
+        align-items: center;
+        
+        margin: auto;
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        z-index: 25;
+        background-color: rgba(241, 248, 253, 0.849);
+background: url('../images/1558314.gif') !important;
+        }
+
+    .Big{
+        margin-top: 50px !important;
+        justify-content: center;
+        align-items: center;
+
+        }
+        
+        .U{
+         
+            text-align: center;
+        
+        width: fit-content;
+        text-align: center;
+        margin: auto;
+        }
+        
+        .formInputs{
+            margin-bottom: 35px;
+         margin-left: auto ;
+width: 90%;
+            }
+        
+            .start{
+        border-right: 1px solid black ;
+        height: 50%; 
+        width: 1px;
+        text-align: center;
+        margin: auto;
+        background-color: rgb(240, 116, 116);  
+        }
+            .end{
+                border-right: 1px solid black ;
+        height: 200px; 
+        width: 1px;
+        text-align: center;
+        margin: auto;
+        background-color: rgb(240, 116, 1)
+        
+            }
+        
+            label{
+                position: absolute;
+                font-size: 1.5rem;
+                
+              
+            }
+        
+            
+            .form{
+        display: grid;
+        grid-template-columns: auto auto auto;
+            }
+        
+            .sGmail{
+                align-self: center;
+                justify-self: center;
+        border-radius: none !important;
+        background: rgba(36, 29, 16, 0.719) !important;
+        font-size: 1rem;
+        padding: 10px;
+    margin: 10px 10px 30px 0px;
+        border-radius: 5px;
+        cursor: pointer;
+        border: 1px solid grey;
+            }
+        
+            .smail{
+                font-size: 0.90rem;
+                background-color: transparent;
+                border-radius: 5px;
+                border: 1px solid grey;
+                padding: 5px;
+                cursor: pointer;
+            }
+        
+            .Signupsg{
+                margin-top: 30%;
+                justify-content: center;
+         
+            width: fit-content;
+            height: 30%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+         
+            }
+        
+            .forgot{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        font-size: 0.90rem;
+            }
+        
+            .forgot:hover{
+                text-decoration: underline;
+                
+            }
+            #ti:hover{
+              color: rgba(245, 215, 160, 0.534) !important;
+            }
+            .sign{
+                border-radius: 20px;
+               width: fit-content;
+               font-size: 0.96rem;
+               padding: 0px 20px;
+        color: white;
+        margin-left: 90px;
+                background-color: rgba(32, 32, 32, 0.822);
+           cursor: pointer;
+            }
+        .sign:hover{
+            background-color: rgb(20, 20, 20);
+        }
+            .sigco{
+                margin-left: 20px;
+                width: 60%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+            }
+            .Ex{
+                position: absolute;
+                top: 0;
+                right: 10px;
+                    color: black;
+                    font-size: 3rem;
+                    text-align: right;
+                    cursor: pointer;
+                    background: transparent;
+                    border: none;
+                }
+
+           .Big{
+            background: transparent !important;
+           }   
+
+           .sGmail:hover{
+background-color: rgba(0, 0, 0, 0.76) !important;
+           }
+           .sGmail{
+            background-color: rgba(245, 215, 160, 0.534) !important;
+
+           }
+
+           .smail:hover{
+            background-color: rgba(245, 215, 160, 0.534) !important;
+
+           }
+           .sign:hover{
+            background-color: rgba(245, 215, 160, 0.534) !important;
+
+           }
+           .sigup:hover{
+            background-color: rgba(245, 215, 160, 0.534) !important;
+
+           }
+           .Ex:hover{
+         color: rgba(245, 215, 160, 0.534) !important;
+
+           }
+}
+
+
+
+
+
+
+
+    /*  
+.ContainerForm button{
+  
+    width: fit-content;
+    height: 10%;
+padding: 5px;
+
+border-radius: 4px;
+}
+    */
